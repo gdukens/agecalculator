@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 18px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button#calculateBtn {
+  background: #007BA7;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 18px;
+  transition: background 0.2s;
+}
+
+button#calculateBtn:hover {
+  background: #005f7a;
+}
+
+#result {
+  margin-top: 18px;
+  font-size: 1.1rem;
+  min-height: 28px;
+}
+
+#theme-buttons {
+  margin-top: 32px;
+}
+
+#theme-buttons h2 {
+  color: #E52B50;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.theme-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+#theme-buttons button {
+  background: #ececec;
+  color: #333;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 7px 14px;
+  cursor: pointer;
+  font-size: 0.98rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+#theme-buttons button:hover {
+  background: #007BA7;
+  color: #fff;
+  border-color: #007BA7;
+}
